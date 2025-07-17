@@ -1,21 +1,46 @@
 {
   "name": "react-bionic-reading",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
+  "description": "A React component that implements the bionic reading method.",
+  "author": "George Lopez",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --dts --format esm,cjs --out-dir dist",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test": "vitest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgelopez7/react-bionic-reading.git"
+  },
+  "homepage": "https://github.com/georgelopez7/react-bionic-reading#readme",
+  "bugs": {
+    "url": "https://github.com/georgelopez7/react-bionic-reading/issues"
+  },
+  "keywords": [
+    "react",
+    "bionic-reading",
+    "text",
+    "accessibility"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
   "devDependencies": {
     "@chromatic-com/storybook": "^4.0.1",
     "@storybook/addon-a11y": "^9.0.17",
@@ -39,11 +64,6 @@
     "vitest": "^3.2.4"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
     "zustand": "^5.0.6"
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }
