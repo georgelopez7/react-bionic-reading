@@ -7,11 +7,13 @@ export const BionicText = ({
   as: Component = "span",
   style,
   className,
+  forceBionicMode = false,
 }: IBionicTextProps) => {
-  const { isBionic } = useBionic();
+  const { bionicMode } = useBionic();
+  const isBionicModeEnabled = forceBionicMode || bionicMode;
   return (
     <Component style={style} className={className}>
-      {isBionic ? ApplyBionicText(text) : text}
+      {isBionicModeEnabled ? ApplyBionicText(text) : text}
     </Component>
   );
 };

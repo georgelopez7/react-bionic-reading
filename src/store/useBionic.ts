@@ -2,15 +2,15 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
 type IBionicState = {
-  isBionic: boolean;
-  setIsBionic: (isBionic: boolean) => void;
+  bionicMode: boolean;
+  setBionicMode: (isBionic: boolean) => void;
 };
 
 export const useBionic = create<IBionicState>()(
   persist(
     (set) => ({
-      isBionic: true,
-      setIsBionic: (isBionic) => set({ isBionic }),
+      bionicMode: true,
+      setBionicMode: (bionicMode: boolean) => set({ bionicMode }),
     }),
     {
       name: "bionic-storage",

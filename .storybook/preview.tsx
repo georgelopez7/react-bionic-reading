@@ -22,10 +22,9 @@ const preview: Preview = {
   decorators: [
     (Story, context) => {
       const isBionic = context.globals.bionic as boolean;
-      const { setIsBionic } = useBionic();
-
+      const { setBionicMode } = useBionic();
       useEffect(() => {
-        setIsBionic(isBionic);
+        setBionicMode(isBionic);
       }, [isBionic]);
 
       return <Story />;

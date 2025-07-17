@@ -5,4 +5,5 @@ export interface IBionicTextProps {
   as?: ElementType;
   style?: CSSProperties;
   className?: string;
+  forceBionicMode?: boolean;
 }

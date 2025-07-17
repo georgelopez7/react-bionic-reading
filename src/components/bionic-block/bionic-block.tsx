@@ -3,8 +3,12 @@ import { ApplyBionicText } from "../../utils/bionic.utils.js";
 import { useBionic } from "../../store/useBionic.js";
 import { IBionicBlockProps } from "./bionic-block.interface";
 
-export const BionicBlock = ({ children }: IBionicBlockProps) => {
-  const { isBionic } = useBionic();
+export const BionicBlock = ({
+  children,
+  forceBionicMode = false,
+}: IBionicBlockProps) => {
+  const { bionicMode } = useBionic();
+  const isBionicModeEnabled = forceBionicMode || bionicMode;
 
   // RECURSIVELY TRAVERSE CHILDREN NODES
   const transform = (node: ReactNode): ReactNode => {
@@ -38,5 +42,5 @@ export const BionicBlock = ({ children }: IBionicBlockProps) => {
   };
 
   // APPLY THE TRANSFORMATION IF BIONIC READING IS ENABLED
-  return <>{isBionic ? transform(children) : children}</>;
+  return <>{isBionicModeEnabled ? transform(children) : children}</>;
 };

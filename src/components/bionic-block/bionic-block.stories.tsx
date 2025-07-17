@@ -20,6 +20,7 @@ export const BionicBlockStory: Story = {
         <h1 style={{ fontWeight: "normal" }}>This is an H1 heading</h1>
         <p>This is a paragraph.</p>
         <p>This is another paragraph.</p>
+        Text with no tags
       </BionicBlock>
     );
   },
