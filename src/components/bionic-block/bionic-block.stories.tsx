@@ -1,16 +1,13 @@
-import type { Meta, StoryObj } from '@storybook/react';
-
-import { BionicBlock } from './bionic-block';
-
-import { Spacer } from '../spacer/spacer';
+import type { Meta, StoryObj } from "@storybook/react";
+import { BionicBlock } from "./bionic-block";
 
 const meta: Meta<typeof BionicBlock> = {
-  title: 'Components/Bionic Block',
+  title: "Components/Bionic Block",
   component: BionicBlock,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 };
 
 export default meta;
@@ -19,15 +16,11 @@ type Story = StoryObj<typeof BionicBlock>;
 export const BionicBlockStory: Story = {
   render: () => {
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: "center", alignItems: 'center', width: '100%' }}>
-          <BionicBlock>
-            <h1>Hello World</h1>
-            <p>This is a paragraph.</p>
-            <p>This is another paragraph.</p>
-          </BionicBlock>
-        <Spacer space="large" />
-      </div>
-
+      <BionicBlock>
+        <h1 style={{ fontWeight: "normal" }}>This is an H1 heading</h1>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+      </BionicBlock>
     );
   },
 };

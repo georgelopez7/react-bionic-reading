@@ -1,5 +1,5 @@
-export type SpacerSize = 'xsmall' | 'small' | 'medium' | 'large';
+export type ISpacerSize = "xxsmall" | "xsmall" | "small" | "medium" | "large";
 
 export interface ISpacerProps {
-  space: SpacerSize;
+  space: ISpacerSize;
 }

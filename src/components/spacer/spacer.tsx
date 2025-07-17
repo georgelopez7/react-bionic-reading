@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
+import { ISpacerProps, ISpacerSize } from "./spacer.interface";
 
-import { ISpacerProps, SpacerSize } from './spacer.interface';
-
-const sizeMap: Record<SpacerSize, string> = {
-  xsmall: '4px',
-  small: '8px',
-  medium: '16px',
-  large: '32px',
+const sizeMap: Record<ISpacerSize, string> = {
+  xxsmall: "4px",
+  xsmall: "8px",
+  small: "12px",
+  medium: "16px",
+  large: "32px",
 };
 
 export const Spacer: React.FC<ISpacerProps> = ({ space }) => {
   const height = sizeMap[space];
-  return <div style={{ height, width: '100%' }} />;
+  return <div style={{ height: height, width: "100%" }} />;
 };

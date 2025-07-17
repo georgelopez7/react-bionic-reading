@@ -1,4 +1,4 @@
-import type { CSSProperties, ElementType } from 'react';
+import type { CSSProperties, ElementType } from "react";
 
 export interface IBionicTextProps {
   text: string;
