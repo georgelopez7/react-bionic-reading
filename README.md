@@ -2,6 +2,11 @@
 
 A React component library for applying **bio**nic **read**ing to text. Effortlessly integrate bionic reading into your React applications to enhance readability and reading speed.
 
+## 📷 **De**mo
+
+https://github.com/user-attachments/assets/abd491c3-762e-44a1-ad49-ec80970f522f
+
+
 ## 🚀 **Instal**lation
 
 Install the package in your project directory with:
