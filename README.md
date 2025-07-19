@@ -1,11 +1,10 @@
-<p style="font-size: 2em; font-weight: 400;">⚪⚫ <b style="font-weight: 700;">Rea</b>ct <b style="font-weight: 700;">Bio</b>nic <b style="font-weight: 700;">Read</b>ing</p>
+# ⚪⚫ 𝗥𝗲𝗮ct 𝗕𝗶𝗼nic 𝗥𝗲𝗮ding
 
 A React component library for applying <b>bio</b>nic <b>read</b>ing to text. Effortlessly integrate bionic reading into your React applications to enhance readability and reading speed.
 
 <p style="font-size: 1.5em; font-weight: 400;">📷 <b style="font-weight: 700;">De</b>mo</p>
 
 https://github.com/user-attachments/assets/abd491c3-762e-44a1-ad49-ec80970f522f
-
 
 <p style="font-size: 1.5em; font-weight: 400;">🚀 <b style="font-weight: 700;">Instal</b>lation</p>
 
