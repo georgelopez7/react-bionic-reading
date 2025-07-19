@@ -103,3 +103,7 @@ function BionicModeToggle() {
 | --------------- | -------------------- | ------------------------------------------------------- |
 | `bionicMode`    | `boolean`            | 𝗧𝗵𝗲 𝗰𝘂𝗿𝗿ent 𝘀𝘁𝗮te 𝗼𝗳 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing (𝗲𝗻𝗮𝗯led/𝗱𝗶𝘀𝗮bled). |
 | `setBionicMode` | `(isBionic) => void` | 𝗔 𝗳𝘂𝗻𝗰tion 𝘁𝗼 𝘂𝗽𝗱𝗮te 𝘁𝗵𝗲 `bionicMode` 𝘀𝘁𝗮te.            |
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
