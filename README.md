@@ -1,13 +1,13 @@
-# ⚪⚫ **Rea**ct **Bio**nic **Read**ing
+# ⚪⚫ <b>Rea</b>ct <b>Bio</b>nic <b>Read</b>ing
 
-A React component library for applying **bio**nic **read**ing to text. Effortlessly integrate bionic reading into your React applications to enhance readability and reading speed.
+A React component library for applying <b>bio</b>nic <b>read</b>ing to text. Effortlessly integrate bionic reading into your React applications to enhance readability and reading speed.
 
-## 📷 **De**mo
+## 📷 <b>De</b>mo
 
 https://github.com/user-attachments/assets/abd491c3-762e-44a1-ad49-ec80970f522f
 
 
-## 🚀 **Instal**lation
+## 🚀 <b>Instal</b>lation
 
 Install the package in your project directory with:
 
@@ -21,7 +21,7 @@ or if you prefer yarn:
 yarn add react-bionic-reading
 ```
 
-## ✨ **Usa**ge
+## ✨ <b>Usa</b>ge
 
 We provide two main components to apply bionic reading: `BionicText` for single strings and `BionicBlock` for larger blocks of content with nested elements.
 
@@ -80,7 +80,7 @@ function BionicModeToggle() {
 }
 ```
 
-## 🧵 **Pro**ps
+## 🧵 <b>Pro</b>ps
 
 ### `BionicText` Props
 
