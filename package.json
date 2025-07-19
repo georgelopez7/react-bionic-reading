@@ -1,17 +1,17 @@
 {
   "name": "react-bionic-reading",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A React component that implements the bionic reading method.",
   "author": "George Lopez",
   "license": "MIT",
-  "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "files": [
