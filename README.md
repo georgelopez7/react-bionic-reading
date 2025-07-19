@@ -1,6 +1,6 @@
 # ⚪⚫ 𝗥𝗲𝗮ct 𝗕𝗶𝗼nic 𝗥𝗲𝗮ding
 
-A React component library for applying 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing to text. Effortlessly integrate bionic reading into your React applications to enhance readability and reading speed.
+𝗔 𝗥𝗲𝗮ct 𝗰𝗼𝗺𝗽onent 𝗹𝗶𝗯𝗿ary 𝗳𝗼r 𝗮𝗽𝗽𝗹ying 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing 𝘁𝗼 𝘁𝗲xt. 𝗘𝗳𝗳𝗼𝗿𝘁𝗹essly 𝗶𝗻𝘁𝗲𝗴rate 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing 𝗶𝗻𝘁𝗼 𝘆𝗼ur 𝗥𝗲𝗮ct 𝗮𝗽𝗽𝗹𝗶𝗰𝗮tions 𝘁𝗼 𝗲𝗻𝗵𝗮nce 𝗿𝗲𝗮𝗱𝗮𝗯ility 𝗮𝗻𝗱 𝗿𝗲𝗮𝗱ing 𝘀𝗽𝗲ed.
 
 ## 📷 𝗗𝗲mo
 
@@ -8,13 +8,13 @@ https://github.com/user-attachments/assets/abd491c3-762e-44a1-ad49-ec80970f522f
 
 ## 🚀 𝗜𝗻𝘀𝘁𝗮𝗹lation
 
-Install the package in your project directory with:
+𝗜𝗻𝘀𝘁𝗮𝗹l 𝘁𝗵𝗲 𝗽𝗮𝗰𝗸age 𝗶𝗻 𝘆𝗼ur 𝗽𝗿𝗼ject 𝗱𝗶𝗿𝗲𝗰tory 𝘄𝗶th:
 
 ```bash
 npm install react-bionic-reading
 ```
 
-or if you prefer yarn:
+𝗼𝗿 𝗶𝗳 𝘆𝗼u 𝗽𝗿𝗲𝗳er 𝘆𝗮rn:
 
 ```bash
 yarn add react-bionic-reading
@@ -22,11 +22,11 @@ yarn add react-bionic-reading
 
 ## ✨ 𝗨𝘀𝗮ge
 
-We provide two main components to apply bionic reading: `BionicText` for single strings and `BionicBlock` for larger blocks of content with nested elements.
+𝗪𝗲 𝗽𝗿𝗼𝘃ide 𝘁𝘄𝗼 𝗺𝗮in 𝗰𝗼𝗺𝗽𝗼nents 𝘁𝗼 𝗮𝗽𝗽ly 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing: `BionicText` 𝗳𝗼𝗿 𝘀𝗶𝗻𝗴le 𝘀𝘁𝗿𝗶𝗻𝗴s 𝗮𝗻𝗱 `BionicBlock` 𝗳𝗼𝗿 𝗹𝗮𝗿𝗴er 𝗯𝗹𝗼𝗰ks 𝗼𝗳 𝗰𝗼𝗻𝘁ent 𝘄𝗶𝘁h 𝗻𝗲𝘀𝘁ed 𝗲𝗹𝗲𝗺ents.
 
 ### `BionicText`
 
-Use the `BionicText` component to apply bionic reading to a string.
+𝗨𝘀𝗲 𝘁𝗵𝗲 `BionicText` 𝗰𝗼𝗺𝗽𝗼nent 𝘁𝗼 𝗮𝗽𝗽ly 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing 𝘁𝗼 𝗮 𝘀𝘁𝗿𝗶ng.
 
 ```jsx
 import { BionicText } from "react-bionic-reading";
@@ -40,7 +40,7 @@ function MyComponent() {
 
 ### `BionicBlock`
 
-Use the `BionicBlock` component to apply bionic reading to a block of content, including nested HTML elements.
+𝗨𝘀𝗲 𝘁𝗵𝗲 `BionicBlock` 𝗰𝗼𝗺𝗽𝗼nent 𝘁𝗼 𝗮𝗽𝗽ly 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing 𝘁𝗼 𝗮 𝗯𝗹𝗼ck 𝗼𝗳 𝗰𝗼𝗻𝘁ent, 𝗶𝗻𝗰𝗹𝘂ding 𝗻𝗲𝘀𝘁ed 𝗛𝗧𝗠L 𝗲𝗹𝗲𝗺ents.
 
 ```jsx
 import { BionicBlock } from "react-bionic-reading";
@@ -53,9 +53,6 @@ function MyArticle() {
         This is a paragraph inside a bionic block. It will be converted to
         bionic text.
       </p>
-      <p>
-        Another paragraph with some <strong>strongly emphasized</strong> text.
-      </p>
     </BionicBlock>
   );
 }
@@ -63,7 +60,7 @@ function MyArticle() {
 
 ### `useBionic` Hook
 
-We expose a `useBionic` hook that allows you to globally control the bionic reading state. This is useful for creating a toggle button to enable or disable bionic reading for the entire application.
+𝗪𝗲 𝗲𝘅𝗽𝗼se 𝗮 `useBionic` 𝗵𝗼𝗼k 𝘁𝗵𝗮t 𝗮𝗹𝗹𝗼ws 𝘆𝗼u 𝘁𝗼 𝗴𝗹𝗼𝗯ally 𝗰𝗼𝗻𝘁rol 𝘁𝗵𝗲 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing 𝘀𝘁𝗮te. 𝗧𝗵𝗶s 𝗶𝘀 𝘂𝘀𝗲𝗳ul 𝗳𝗼𝗿 𝗰𝗿𝗲𝗮ting 𝗮 𝘁𝗼𝗴𝗴le 𝗯𝘂𝘁𝘁on 𝘁𝗼 𝗲𝗻𝗮𝗯le 𝗼𝗿 𝗱𝗶𝘀𝗮ble 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗲𝗻𝘁𝗶re 𝗮𝗽𝗽𝗹𝗶𝗰𝗮tion.
 
 ```jsx
 import { useBionic } from "react-bionic-reading";
@@ -85,24 +82,24 @@ function BionicModeToggle() {
 
 | Prop              | Type            | Description                                                                                                              |
 | ----------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `text`            | `string`        | The text string to apply bionic reading to.                                                                              |
-| `as`              | `ElementType`   | The HTML element to render the component as. Defaults to `span`.                                                         |
-| `style`           | `CSSProperties` | Inline styles to apply to the component.                                                                                 |
-| `className`       | `string`        | CSS classes to apply to the component.                                                                                   |
-| `forceBionicMode` | `boolean`       | If `true`, bionic reading will be applied regardless of the global state from the `useBionic` hook. Defaults to `false`. |
+| `text`            | `string`        | 𝗧𝗵𝗲 𝘁𝗲xt 𝘀𝘁𝗿𝗶ng 𝘁𝗼 𝗮𝗽𝗽ly 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing 𝘁𝗼.                                                                              |
+| `as`              | `ElementType`   | 𝗧𝗵𝗲 𝗛𝗧𝗠L 𝗲𝗹𝗲𝗺ent 𝘁𝗼 𝗿𝗲𝗻𝗱er 𝘁𝗵𝗲 𝗰𝗼𝗺𝗽𝗼nent 𝗮𝘀. 𝗗𝗲𝗳𝗮ults 𝘁𝗼 `span`.                                                         |
+| `style`           | `CSSProperties` | 𝗜𝗻𝗹𝗶ne 𝘀𝘁𝘆𝗹es 𝘁𝗼 𝗮𝗽𝗽ly 𝘁𝗼 𝘁𝗵𝗲 𝗰𝗼𝗺𝗽𝗼nent.                                                                                 |
+| `className`       | `string`        | 𝗖𝗦𝗦 𝗰𝗹𝗮𝘀ses 𝘁𝗼 𝗮𝗽𝗽ly 𝘁𝗼 𝘁𝗵𝗲 𝗰𝗼𝗺𝗽𝗼nent.                                                                                   |
+| `forceBionicMode` | `boolean`       | 𝗜𝗳 `true`, 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing 𝘄𝗶𝗹l 𝗯𝗲 𝗮𝗽𝗽𝗹ied 𝗿𝗲𝗴𝗮𝗿dless 𝗼𝗳 𝘁𝗵𝗲 𝗴𝗹𝗼𝗯al 𝘀𝘁𝗮te 𝗳𝗿𝗼m 𝘁𝗵𝗲 `useBionic` 𝗵𝗼𝗼k. 𝗗𝗲𝗳𝗮ults 𝘁𝗼 `false`. |
 
 ### `BionicBlock` Props
 
 | Prop              | Type        | Description                                                                                                                               |
 | ----------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| `children`        | `ReactNode` | The content to be rendered within the block. The component will recursively traverse the children and apply bionic reading to text nodes. |
-| `forceBionicMode` | `boolean`   | If `true`, bionic reading will be applied regardless of the global state from the `useBionic` hook. Defaults to `false`.                  |
+| `children`        | `ReactNode` | 𝗧𝗵𝗲 𝗰𝗼𝗻𝘁ent 𝘁𝗼 𝗯𝗲 𝗿𝗲𝗻𝗱ered 𝘄𝗶𝘁𝗵in 𝘁𝗵𝗲 𝗯𝗹𝗼ck. 𝗧𝗵𝗲 𝗰𝗼𝗺𝗽𝗼nent 𝘄𝗶𝗹l 𝗿𝗲𝗰𝘂𝗿sively 𝘁𝗿𝗮𝘃erse 𝘁𝗵𝗲 𝗰𝗵𝗶𝗹dren 𝗮𝗻𝗱 𝗮𝗽𝗽ly 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing 𝘁𝗼 𝘁𝗲xt 𝗻𝗼𝗱es. |
+| `forceBionicMode` | `boolean`   | 𝗜𝗳 `true`, 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing 𝘄𝗶𝗹l 𝗯𝗲 𝗮𝗽𝗽𝗹ied 𝗿𝗲𝗴𝗮𝗿dless 𝗼𝗳 𝘁𝗵𝗲 𝗴𝗹𝗼𝗯al 𝘀𝘁𝗮te 𝗳𝗿𝗼m 𝘁𝗵𝗲 `useBionic` 𝗵𝗼𝗼k. 𝗗𝗲𝗳𝗮ults 𝘁𝗼 `false`.                  |
 
 ### `useBionic` Hook
 
-The `useBionic` hook returns an object with the following properties:
+𝗧𝗵𝗲 `useBionic` 𝗵𝗼𝗼k 𝗿𝗲𝘁𝘂𝗿ns 𝗮n 𝗼𝗯𝗷𝗲ct 𝘄𝗶𝘁h 𝘁𝗵𝗲 𝗳𝗼𝗹𝗹𝗼wing 𝗽𝗿𝗼𝗽𝗲rties:
 
 | Property        | Type                 | Description                                             |
 | --------------- | -------------------- | ------------------------------------------------------- |
-| `bionicMode`    | `boolean`            | The current state of bionic reading (enabled/disabled). |
-| `setBionicMode` | `(isBionic) => void` | A function to update the `bionicMode` state.            |
+| `bionicMode`    | `boolean`            | 𝗧𝗵𝗲 𝗰𝘂𝗿𝗿ent 𝘀𝘁𝗮te 𝗼𝗳 𝗯𝗶𝗼nic 𝗿𝗲𝗮𝗱ing (𝗲𝗻𝗮𝗯led/𝗱𝗶𝘀𝗮bled). |
+| `setBionicMode` | `(isBionic) => void` | 𝗔 𝗳𝘂𝗻𝗰tion 𝘁𝗼 𝘂𝗽𝗱𝗮te 𝘁𝗵𝗲 `bionicMode` 𝘀𝘁𝗮te.            |
