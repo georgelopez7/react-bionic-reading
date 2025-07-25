@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Build artifacts to ignore (dist is kept)
+build/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+
+# Test coverage
+coverage/
+
+# Storybook
+.storybook/
+
+# Vitest
+vitest.config.ts
+vitest.setup.ts
+vitest.shims.d.ts
+
+# Source files (if you are publishing from a dist folder)
+src/
