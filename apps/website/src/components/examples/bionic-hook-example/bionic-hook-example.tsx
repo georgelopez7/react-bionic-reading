@@ -1,7 +1,7 @@
 import React from 'react'
 import CommandBlock from '@/components/command-tabs'
 import Spacer from '@/components/spacer/spacer'
-import { BionicText } from '@repo/react-bionic-reading'
+import { BionicText } from 'react-bionic-reading'
 import { FlaskConical } from 'lucide-react'
 import { BIONIC_HOOK_EXAMPLE } from './bionic-hook-example.const'
 import BionicSwitch from '@/components/bionic-switch/bionic-switch'

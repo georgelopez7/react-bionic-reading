@@ -1,5 +1,5 @@
 {
-    "name": "@repo/react-bionic-reading",
+    "name": "react-bionic-reading",
     "version": "1.0.4",
     "description": "A React component that implements the bionic reading method.",
     "author": "George Lopez",

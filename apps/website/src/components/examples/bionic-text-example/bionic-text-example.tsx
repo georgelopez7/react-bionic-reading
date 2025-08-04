@@ -1,7 +1,7 @@
 import CommandBlock from '@/components/command-tabs'
 import Spacer from '@/components/spacer/spacer'
 import React from 'react'
-import { BionicText } from '@repo/react-bionic-reading'
+import { BionicText } from 'react-bionic-reading'
 import { BIONIC_TEXT_EXAMPLE } from './bionic-text-example.const'
 import { RemoveFormatting } from 'lucide-react'
 

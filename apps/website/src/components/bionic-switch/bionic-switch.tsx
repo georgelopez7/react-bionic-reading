@@ -3,7 +3,7 @@
 import React from "react";
 import { Switch } from "../ui/switch";
 import { cn } from "@/lib/utils";
-import { useBionic } from "@repo/react-bionic-reading";
+import { useBionic } from "react-bionic-reading";
 
 const BionicSwitch = () => {
   const { bionicMode, setBionicMode } = useBionic();

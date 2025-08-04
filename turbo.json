@@ -17,8 +17,7 @@
       "dependsOn": ["^lint"]
     },
     "test": {
-      "dependsOn": ["^build"],
-      "outputs": ["coverage/**"]
+      "dependsOn": ["^build"]
     },
     "storybook": {
       "persistent": true,

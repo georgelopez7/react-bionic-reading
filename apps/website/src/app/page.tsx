@@ -13,7 +13,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Blocks, Pointer, Webhook } from "lucide-react";
 import Link from "next/link";
-import { BionicText } from "@repo/react-bionic-reading";
+import { BionicText } from "react-bionic-reading";
 
 const NPM_PACKAGE_URL = "https://www.npmjs.com/package/react-bionic-reading"
 const GITHUB_URL = "https://github.com/georgelopez7/react-bionic-reading"
