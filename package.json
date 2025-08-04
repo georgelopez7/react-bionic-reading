@@ -12,7 +12,8 @@
 
     "storybook:bionic": "turbo run storybook --filter=react-bionic-reading",
     "build:bionic": "turbo run build --filter=react-bionic-reading",
-    "test:bionic": "turbo run test --filter=react-bionic-reading"
+    "test:bionic": "turbo run test --filter=react-bionic-reading",
+    "publish:bionic": "npm publish --workspace=react-bionic-reading --access public"
   },
   "workspaces": [
     "apps/*",
