@@ -1,69 +1,24 @@
 {
-  "name": "react-bionic-reading",
-  "version": "1.0.4",
-  "description": "A React component that implements the bionic reading method.",
-  "author": "George Lopez",
-  "license": "MIT",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
-    }
-  },
-  "files": [
-    "dist"
-  ],
+  "packageManager": "npm@8.5.0",
   "scripts": {
-    "build": "tsup src/index.ts --dts --format esm,cjs --out-dir dist",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "test": "vitest"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+
+    "dev:website": "turbo run dev --filter=website",
+    "build:website": "turbo run build --filter=website",
+    "test:website": "turbo run test --filter=website",
+
+    "storybook:bionic": "turbo run storybook --filter=@repo/react-bionic-reading",
+    "build:bionic": "turbo run build --filter=@repo/react-bionic-reading",
+    "test:bionic": "turbo run test --filter=@repo/react-bionic-reading"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/georgelopez7/react-bionic-reading.git"
-  },
-  "homepage": "https://github.com/georgelopez7/react-bionic-reading#readme",
-  "bugs": {
-    "url": "https://github.com/georgelopez7/react-bionic-reading/issues"
-  },
-  "keywords": [
-    "react",
-    "bionic-reading",
-    "text",
-    "accessibility"
+  "workspaces": [
+    "apps/*",
+    "packages/*"
   ],
-  "peerDependencies": {
-    "react": ">=18.0.0",
-    "react-dom": ">=18.0.0"
-  },
   "devDependencies": {
-    "@chromatic-com/storybook": "^4.0.1",
-    "@storybook/addon-a11y": "^9.0.17",
-    "@storybook/addon-docs": "^9.0.17",
-    "@storybook/addon-onboarding": "^9.0.17",
-    "@storybook/addon-vitest": "^9.0.17",
-    "@storybook/react-vite": "^9.0.17",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.3.0",
-    "@types/node": "^24.0.14",
-    "@types/react": "^19.1.8",
-    "@vitejs/plugin-react": "^4.3.1",
-    "@vitest/browser": "3.2.4",
-    "@vitest/coverage-v8": "3.2.4",
-    "jsdom": "^24.1.1",
-    "playwright": "^1.54.1",
-    "storybook": "^9.0.17",
-    "tsup": "^8.5.0",
-    "typescript": "^5.8.3",
-    "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^3.2.4"
-  },
-  "dependencies": {
-    "zustand": "^5.0.6"
+    "turbo": "^2.5.5"
   }
 }

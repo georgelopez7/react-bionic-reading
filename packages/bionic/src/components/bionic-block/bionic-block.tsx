@@ -1,7 +1,7 @@
 import React, { isValidElement, ReactNode, ReactElement } from "react";
 import { ApplyBionicText } from "../../utils/bionic.utils.js";
 import { useBionic } from "../../store/useBionic.js";
-import { IBionicBlockProps } from "./bionic-block.interface";
+import { IBionicBlockProps } from "./bionic-block.interface.js";
 
 export const BionicBlock = ({
   children,

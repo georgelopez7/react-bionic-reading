@@ -1,0 +1,1 @@
+export const BIONIC_TEXT_EXAMPLE = `<BionicText text="Hello bionic reading lovers" />`
