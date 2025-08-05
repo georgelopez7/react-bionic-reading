@@ -86,18 +86,19 @@ export default function Home() {
 
       <Spacer size="small" />
 
-      <div className="flex items-center gap-4">
-        <BlurFade className="flex items-center gap-4 bg-card py-2 px-4 rounded-md border" delay={0.25} inView={true}>
-        <Link className={cn("flex items-center gap-2", buttonVariants({ variant: "link"}), "[&_svg]:size-7")} href={GITHUB_URL}>
+      {/* EXPLORE SECTION */}
+      <div className="flex flex-wrap items-center gap-4">
+        <BlurFade className="flex items-center gap-4 bg-card rounded-md border" delay={0.25} inView={true}>
+        <Link className={cn("flex items-center gap-2", buttonVariants({ variant: "link"}), "[&_svg]:size-4")} href={GITHUB_URL}>
           <GithubIcon />
-            <BionicText className="text-lg text-center" text="Github" as="p" />
+            <BionicText className="text-sm text-center" text="Github" as="p" />
           </Link>
         </BlurFade>
 
-        <BlurFade className="flex items-center gap-4 bg-card p-2 rounded-md border" delay={0.25} inView={true}>
-          <Link className={cn("flex items-center gap-2", buttonVariants({ variant: "link"}), "[&_svg]:size-12")} href={NPM_PACKAGE_URL}>
-              <NPM className="w-24 h-12" />
-            <BionicText className="text-lg text-center" text="Install from NPM" as="p" />
+        <BlurFade className="flex items-center gap-4 bg-card rounded-md border" delay={0.25} inView={true}>
+          <Link className={cn("flex items-center gap-2", buttonVariants({ variant: "link"}), "[&_svg]:size-8")} href={NPM_PACKAGE_URL}>
+              <NPM />
+            <BionicText className="text-sm text-center" text="Install from NPM" as="p" />
           </Link>
         </BlurFade>
       </div>

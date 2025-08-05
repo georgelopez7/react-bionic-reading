@@ -9,7 +9,7 @@ const BionicSwitch = () => {
   const { bionicMode, setBionicMode } = useBionic();
 
   return (
-    <div className="flex items-center space-x-2 bg-card rounded-md border py-2 px-4">
+    <div className="flex items-center gap-2 bg-card rounded-md border py-2 px-4">
       <p className="font-bold max-sm:hidden">Bionic Mode: </p>
       <p className={cn(bionicMode && "opacity-20")}>Off</p>
       <Switch
